@@ -20,7 +20,8 @@ class GetRequester
     @val_hash = JSON.parse(@val_str)
     @val_hash
 
-    binding.pry
   end
+
+  binding.pry
 
 end
