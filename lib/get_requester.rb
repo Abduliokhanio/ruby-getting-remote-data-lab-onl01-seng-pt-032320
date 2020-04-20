@@ -13,12 +13,13 @@ class GetRequester
     uri = URI.parse(@url)
     @val_str = uri.open.string
     @val_str
-    binding.pry
+    
   end
 
   def parse_json
     @val_hash = JSON.parse(@val_str)
     @val_hash
+    binding.pry
 
   end
 
