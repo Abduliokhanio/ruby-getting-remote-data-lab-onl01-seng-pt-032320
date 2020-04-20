@@ -18,9 +18,6 @@ class GetRequester
   end
 
   def parse_json
-    @val_hash = JSON.parse(@val_str)
-    @val_hash
-    binding.pry
 
   end
 
